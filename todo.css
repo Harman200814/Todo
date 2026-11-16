@@ -1,0 +1,44 @@
+#Main{
+    text-align: center;
+}
+*{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+
+}
+.grid
+{
+     display: grid;
+     grid-template-columns: 180px 120px 120px;
+     margin-top: 20px;
+     column-gap: 10px;
+     row-gap: 10px;
+     margin-left: 35%;
+     
+}
+#Todo-inp,#date
+{
+background-color: beige;
+border: 2px solid rgb(121, 121, 184);
+padding: 10px 5px;
+
+}
+.button-dlt{
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    color: bisque;
+    background-color: brown;
+    padding: 0px 10px 0px 10px;
+}
+.button-todo{
+    background-color: rgb(75, 187, 75);
+}
+body{
+    background-color: antiquewhite;
+  
+
+}
+#item-id{
+    border: 2px solid black;
+}
